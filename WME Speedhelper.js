@@ -17,7 +17,7 @@
  modifiziert by electria@Ralf
  
 */
-var VERSION = '0.12.0.01';
+var VERSION = '0.12.0.02';
 
 // Add Google Varela Round font to make sure signs look the same everywhere (less hassle)
 WebFontConfig = {google:{families:['Varela+Round::latin' ]}};
