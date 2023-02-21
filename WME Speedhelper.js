@@ -1,10 +1,10 @@
 // ==UserScript==
-// @name           WME Speedhelper
+// @name           WME Speedhelper modify by electria@Ralf
 // @description    Makes inputting speed data easier
 // @namespace      broosgert@gmail.com
 // @grant          none
 // @grant          GM_info
-// @version        0.12.0.ralf.01
+// @version        0.12.0.01
 // @include 	   /^https:\/\/(www|beta)\.waze\.com\/(?!user\/)(.{2,6}\/)?editor.*$/
 // @exclude        https://www.waze.com/user/*editor/*
 // @exclude        https://www.waze.com/*/user/*editor/*
@@ -14,8 +14,10 @@
 // ==/UserScript==
 /* Changelog
  
+ modifiziert by electria@Ralf
+ 
 */
-var VERSION = '0.12.0.ralf.01';
+var VERSION = '0.12.0.01';
 
 // Add Google Varela Round font to make sure signs look the same everywhere (less hassle)
 WebFontConfig = {google:{families:['Varela+Round::latin' ]}};
