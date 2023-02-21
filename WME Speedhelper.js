@@ -326,7 +326,7 @@ function WMESpeedhelper_init() {
                 addsign.id = 'sign'+allowedspeed;
 
                 // Get width/height of sign background img
-                addsign.style.cssText = 'margin:2px;cursor:pointer;float:left;width:'+dims[1]+'px;height:'+dims[0]+'px;background-image: url(\''+ bgimage + '\');  background-size: cover; ';
+                addsign.style.cssText = 'margin:1px;cursor:pointer;float:left;width:'+dims[1]+'px;height:'+dims[0]+'px;background-image: url(\''+ bgimage + '\');  background-size: cover; ';
 
                 // Credits for some of these parts go to t0cableguy & Rickzabel
                 addsign.onclick =  function() {
