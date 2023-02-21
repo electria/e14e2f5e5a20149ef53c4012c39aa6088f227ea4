@@ -4,7 +4,7 @@
 // @namespace      broosgert@gmail.com
 // @grant          none
 // @grant          GM_info
-// @version        0.12.0.04
+// @version        0.12.0.05
 // @include 	   /^https:\/\/(www|beta)\.waze\.com\/(?!user\/)(.{2,6}\/)?editor.*$/
 // @exclude        https://www.waze.com/user/*editor/*
 // @exclude        https://www.waze.com/*/user/*editor/*
@@ -17,7 +17,7 @@
  modifiziert by electria@Ralf
  
 */
-var VERSION = '0.12.0.04';
+var VERSION = '0.12.0.05';
 
 // Add Google Varela Round font to make sure signs look the same everywhere (less hassle)
 WebFontConfig = {google:{families:['Varela+Round::latin' ]}};
@@ -326,7 +326,7 @@ function WMESpeedhelper_init() {
                 addsign.id = 'sign'+allowedspeed;
 
                 // Get width/height of sign background img
-                addsign.style.cssText = 'cursor:pointer;float:left;width:'+dims[1]+'px;height:'+dims[0]+'px;background-image: url(\''+ bgimage + '\');  background-size: cover; ';
+                addsign.style.cssText = 'margin:2px;cursor:pointer;float:left;width:'+dims[1]+'px;height:'+dims[0]+'px;background-image: url(\''+ bgimage + '\');  background-size: cover; ';
 
                 // Credits for some of these parts go to t0cableguy & Rickzabel
                 addsign.onclick =  function() {
